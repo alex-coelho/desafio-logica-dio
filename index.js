@@ -1,9 +1,11 @@
 // declaração das variaveis
 let heroi,nivelXp,categoria;
 
+// definição de heroi e nivel de XP
 heroi = "Seya";
 nivelXp = 5000;
 
+// Checagem de categoria com base no valor do nivel de XP
 if (nivelXp <= 1000) {
     categoria = "Ferro";
 } else if (nivelXp <= 2000 ) {
@@ -22,4 +24,5 @@ if (nivelXp <= 1000) {
     categoria = "Radiante"
 }
 
+// mensagem de saida para informar o nivel do heroi
 console.log("O herói de nome " + heroi + " está no nível " + categoria + ".");
